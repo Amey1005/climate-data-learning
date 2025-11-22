@@ -9,9 +9,9 @@ for c in temps:
     f = (c * 9/5) + 32
     fahrenheit.append(f)
 
-print(fahrenheit)   # <- ONLY this print is outside
+print(fahrenheit)   
 
-today = {    # <- No indentation here
+today = {    
     "city": "Hyderabad",
     "temp_C": 31,
     "humidity": 72,
@@ -21,3 +21,4 @@ today = {    # <- No indentation here
 today["temp_F"] = (today["temp_C"] * 9/5) + 32
 
 print(today)
+
