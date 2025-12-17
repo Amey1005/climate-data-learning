@@ -1,193 +1,108 @@
-# Climate Data Learning (Week-by-Week Projects)
+Project Summary: Climate and Environmental Data Analysis using Python
 
-Project Aim (Overall)
+This project is a structured, multi-stage implementation focused on analyzing weather and environmental datasets using Python. The work progresses from Python fundamentals to real-world data analysis, API integration, visualization, and dashboard development.
 
-The main aim of this project is to:
+Day-wise Work Summary
+Day 1 – Python Fundamentals for Data Analysis
 
-Analyze weather and environmental data using Python to understand climate trends, visualize patterns, and build data-driven insights using real datasets and APIs.
+Implemented Python basics including variables, lists, dictionaries, loops, and functions
 
-This project demonstrates practical skills in:
+Performed temperature analysis (maximum, minimum, average)
 
-Data cleaning
+Converted temperature values from Celsius to Fahrenheit
 
-Data analysis
+Built foundational logic required for later data analysis tasks
 
-Visualization
+Day 2 – CSV Handling and File System Interaction
 
-API handling
+Read and explored CSV files using Pandas
 
-Dashboard creation
+Understood working directories and relative file paths
 
-Debugging and problem-solving
+Used OS module to debug file location issues
 
- Tools & Technologies Used
+Gained familiarity with real-world dataset ingestion
 
-Python
+Day 3 – Weather Data Analysis and Visualization
 
-Pandas – data handling and analysis
+Analyzed weekly weather datasets
 
-Matplotlib – plotting and visualization
+Generated temperature and rainfall trend plots using Matplotlib
 
-OS module – file and directory handling
+Learned labeling, axis formatting, grid usage, and layout handling
 
-APIs – real-time weather data fetching
+Transformed numerical data into visual insights
 
-Streamlit – interactive dashboard
+Day 4 – Weather Report Generation
 
-VS Code & Jupyter Notebook
+Computed summary statistics such as highest rainfall day and average temperature
 
-Git & GitHub
+Implemented logic-based solutions without relying heavily on built-in Pandas shortcuts
 
- Project Structure & Daily Breakdown
-🔹 Day 1: Python Basics & Data Handling
+Created structured analytical reports from raw datasets
 
-Files: day1.py, weather_day1.py
+Day 5 – Weather API Integration
 
-Learned Python basics: variables, lists, dictionaries, loops, and functions
+Fetched real-time weather data using an external API
 
-Calculated:
+Stored API responses into CSV format for analysis
 
-Maximum, minimum, and average temperature
+Analyzed and visualized hourly temperature and humidity data
 
-Converted temperature from Celsius to Fahrenheit
+Introduced working with live data sources
 
-Understood list operations and dictionary access
+Day 6 – Interactive Weather Dashboard
 
- Goal: Build strong Python fundamentals for data analysis.
+Developed an interactive dashboard using Streamlit
 
-🔹 Day 2: CSV Data Reading & File Handling
+Visualized temperature and humidity trends dynamically
 
-Files: day2.py, weather_day2.py, weather_week_hyd.csv
+Implemented city-based data selection with dynamic latitude and longitude handling
 
-Read CSV files using Pandas
+Learned local deployment of dashboards using Streamlit
 
-Understood working directory and file paths
+Day 7 – NDVI and Rainfall Analysis
 
-Explored data using .head(), .columns()
+Analyzed NDVI (Normalized Difference Vegetation Index) alongside rainfall data
 
-Debugged FileNotFoundError using os.getcwd() and os.listdir()
+Converted date columns to datetime format for time-series analysis
 
- Goal: Learn how real-world datasets are loaded and explored.
+Visualized NDVI and rainfall trends over time
 
-🔹 Day 3: Weather Data Analysis & Visualization
+Addressed CSV parsing and data integrity issues
 
-Files: day3.py, weather_day3.py
-
-Analyzed weekly weather data
-
-Plotted:
-
-Temperature trends
-
-Rainfall trends
-
-Learned matplotlib basics:
-
-Labels, titles, grids, rotation
-
- Goal: Convert raw data into meaningful visual insights.
-
-🔹 Day 4: Weather Report Generation
-
-File: day4_weather_report.py
-
-Generated a summarized weather report
-
-Calculated statistics like:
-
-Highest rainfall day
-
-Average temperature
-
-Used logic instead of built-in Pandas shortcuts where possible
-
- Goal: Strengthen logical thinking and reporting skills.
-
-🔹 Day 5: Weather API Integration
-
-File: day5_weather_api.py
-Data: hyderabad_hourly_weather_api.csv
-
-Fetched real-time weather data using an API
-
-Stored API response into CSV
-
-Analyzed hourly temperature and humidity
-
-Generated plots from live data
-
- Goal: Work with real-time data sources.
-
-🔹 Day 6: Interactive Weather Dashboard
-
-Files:
-
-day6_weather_dashboard.py
-
-day6_weather_dynamic_city.py
-
-Built an interactive dashboard using Streamlit
-
-Visualized:
-
-Temperature trends
-
-Humidity trends
-
-Implemented:
-
-City selection
-
-Dynamic latitude & longitude handling
-
-Learned how dashboards run locally using streamlit run
-
- Goal: Present data interactively like real industry tools.
-
-🔹 Day 7: NDVI & Rainfall Analysis
-
-Files:
-
-day7_ndvi_analysis.py
-
-ndvi_rainfall.csv
-
-Analyzed NDVI (vegetation index) alongside rainfall
-
-Converted date columns to datetime format
-
-Plotted:
-
-NDVI trend over time
-
-Rainfall trend over time
-
-Learned debugging of CSV parsing issues
-
- Goal: Study environmental response to climate factors.
-
- Key Skills Demonstrated
+Skills and Competencies Gained
 
 Data cleaning and preprocessing
 
-Exploratory data analysis (EDA)
+Exploratory data analysis
 
 Time-series analysis
 
 Data visualization
 
-API integration
+API data handling
 
 Dashboard development
 
-Debugging and error handling
+Debugging and error resolution
 
-GitHub project management
+Version control using GitHub
 
+Tools and Technologies Used
 
+Python
 
+Pandas
 
-Author
-Amey Kushare
-BITS Pilani, Hyderabad Campus
-Interest areas: Climate Data Analysis, Python, Environmental Analytics
+Matplotlib
+
+OS module
+
+Weather APIs
+
+Streamlit
+
+VS Code and Jupyter Notebook
+
+Git and GitHub
