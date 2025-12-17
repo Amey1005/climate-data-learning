@@ -3,6 +3,7 @@ Project Summary: Climate and Environmental Data Analysis using Python
 This project is a structured, multi-stage implementation focused on analyzing weather and environmental datasets using Python. The work progresses from Python fundamentals to real-world data analysis, API integration, visualization, and dashboard development.
 
 Day-wise Work Summary
+
 Day 1 – Python Fundamentals for Data Analysis
 
 Implemented Python basics including variables, lists, dictionaries, loops, and functions
